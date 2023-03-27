@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './assets/components/App';
 import reportWebVitals from './reportWebVitals';
+import Second from './assets/components/second';
+import Color from './assets/components/RandomColor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Second/>
+    <Color/>
   </React.StrictMode>
 );
 
